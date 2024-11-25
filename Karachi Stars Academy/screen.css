@@ -1,0 +1,40 @@
+/* @media screen and (max-width: 1030px) {
+  /* Adjust navbar and container for smaller screens */
+  /* .navbar .container { 
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav {
+    margin-top: 20px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  /* Adjust button styles for smaller screens */
+  /* .btn { 
+    display: block;
+    width: auto;
+    margin-bottom: 10px;
+  }
+} */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .container1 {
+    padding: 10px;
+  }
+}

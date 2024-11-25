@@ -1,0 +1,50 @@
+button  {
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font-size: inherit;
+    font-size:20px ;
+    width: 100%;
+}
+h1 
+{
+    margin: 0 16px 0 0 ;
+    font-weight: 600;
+    display: grid;
+    place-items: center;
+    font-size: 18px;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255 / 10%);
+}
+:is(.navbar, .burger, .dropdowns) {
+    position: fixed;
+    top: 0;
+}
+img 
+{
+    display: none;
+    transition: rotate 0.3s;
+}
+.navbar {
+    z-index: 1;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 72px;
+    width: 100%;
+    background: linear-gradient(to right, #9d50bb , #6e48aa);
+    color: #f9f9f9;
+}
+.burger {
+    z-index: 3;
+    right: 0;
+    display: grid;
+    place-items: center;
+    height: 72px;
+    width: 72px;
+    background: linear-gradient(to right, #9d50bb , #6e48aa);
+    color: #f9f9f9;
+}
